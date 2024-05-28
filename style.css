@@ -1,0 +1,104 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 5%;
+    width: 5%;
+    border-radius: 40%;
+}
+header h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav{
+    width: 80%;
+    margin: 2% 10%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    background-color: darkslategrey;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.profil{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 5% 0%;
+    margin-left: 10%;
+}
+.photo_description{
+    display: flex;
+    justify-content: space-between;
+}
+.cursus_content, .atouts_niveau, .atouts_linguistiques{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+}
+.cursus, .atouts_linguistiques{
+    width: 80%;
+    margin-left: 10%;
+}
+#special_profil{
+    margin-right: 100%;
+}
+.shills, .mastered_level{
+    text-align: center;
+}
+div h2, h3{
+    margin: 10px 0px;
+}
+.input-group{
+    padding: 8px 60px;
+    border-radius: 20px;
+    margin: 15px 0px;
+}
+fieldset{
+    width: 40%;
+    margin: 5% 30%;
+    border: 15px solid antiquewhite;
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+legend{
+    text-decoration: underline;
+    font: 35px Arial sans-serif serif bold capitalize;
+}
+textarea{
+    text-align: center;
+    resize: none;
+}
+button, .buttons{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgb(207, 78, 100);
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+table{
+    border-collapse: collapse; 
+}
+td,th{
+    border: 1px solid black;
+    padding: 15px 80px;
+}
+th,caption{
+    font-weight: bold;
+    text-decoration: underline;
+}
+#rouge{
+    background-color: red;
+}
+#jaune{
+    background-color: yellow;
+    text-align: center;
+}

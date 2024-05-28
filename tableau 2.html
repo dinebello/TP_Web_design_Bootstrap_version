@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BELLO Mohamed</title>
+    <!-- Link Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Ajoutez votre propre CSS personnalisé ici si nécessaire */
+        body {
+            background-color: #f8f9fa; /* Couleur de fond */
+        }
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            padding: 10px;
+            background-color: #007bff; /* Couleur de fond du header */
+            color: white; /* Couleur du texte */
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: #343a40; /* Couleur de fond de la barre de navigation */
+        }
+        nav a {
+            color: white; /* Couleur des liens */
+            text-decoration: none;
+        }
+        .logo{
+            height: 120px;
+            width: 120px;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        table {
+            width: 100%;
+        }
+        #rouge {
+            background-color: red;
+            color: white;
+        }
+        #jaune {
+            background-color: yellow;
+            color: black;
+        }
+        caption{
+            text-align: center;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="header-content">
+        <img src="uac.jpeg" alt="Logo de l'UAC" class="logo">
+        <section>
+            <h1>Université d'Abomey Calavi</h1>
+            <p><strong>***********************</strong></p>
+            <h2>Ecole Nationale d'Economie Aplliquée et de Managment</h2>
+        </section>
+        <img src="eneam.jpeg" alt="Logo de l'Eneam" class="logo">
+    </header>
+    <nav>
+        <a href="accueil_principale.html" target="_self">Accueil</a>
+        <a href="tableaux.html" target="_self">Tableaux</a>
+        <a href="formulaires.html" target="_self">Formulaire</a>
+        <a href="cv.html" target="_self">Curiculum Vitae (CV)</a>
+        <a href="contact.html" target="_self">Me contacter</a>
+    </nav>
+    <div class="container">
+        <table class="table table-bordered">
+            <p>Tableau 2</p>
+            <tbody>
+                <tr>
+                    <td rowspan="3" id="rouge">IG</td>
+                    <td>GB</td>
+                    <td>GL</td>
+                </tr>
+                <tr>
+                    <td>G</td>
+                    <td>L</td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="jaune">GBL</td>
+                </tr>
+                <tr>
+                    <td>CG</td>
+                    <td>GTL</td>
+                    <td>I</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- Scripts Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

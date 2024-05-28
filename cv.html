@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Mon CV en ligne</title>
+</head>
+<style>
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+
+    .profil {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 5% 0%;
+        margin-left: 10%;
+    }
+
+    .photo_description {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cursus_content,
+    .atouts_niveau,
+    .atouts_linguistiques {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .cursus,
+    .atouts_linguistiques {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    body {
+        background-color: aliceblue;
+    }
+
+    .shills,
+    .mastered_level {
+        text-align: center;
+    }
+
+    p {
+        color: black;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #special_profil {
+        margin-right: 100%;
+    }
+    .mon_cv{
+        display: flex;
+        justify-content: end;
+    }
+    body {
+            background-color: #f8f9fa; /* Couleur de fond */
+        }
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            padding: 10px;
+            background-color: #007bff; /* Couleur de fond du header */
+            color: white; /* Couleur du texte */
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: #343a40; /* Couleur de fond de la barre de navigation */
+        }
+        nav a {
+            color: white; /* Couleur des liens */
+            text-decoration: none;
+        }
+        .logo{
+            height: 120px;
+            width: 120px;
+        }
+        #contact {
+            text-align: center;
+            margin: auto;
+        }
+</style>
+
+<body>
+    <header class="header-content">
+        <img src="uac.jpeg" alt="Logo de l'UAC" class="logo">
+        <section>
+            <h1>Université d'Abomey Calavi</h1>
+            <p><strong>***********************</strong></p>
+            <h2>Ecole Nationale d'Economie Aplliquée et de Managment</h2>
+        </section>
+        <img src="eneam.jpeg" alt="Logo de l'Eneam" class="logo">
+    </header>
+    <nav>
+        <a href="accueil_principale.html" target="_self">Accueil</a>
+        <a href="tableaux.html" target="_self">Tableaux</a>
+        <a href="formulaires.html" target="_self">Formulaire</a>
+        <a href="cv.html" target="_self">Curiculum Vitae (CV)</a>
+        <a href="contact.html" target="_self">Me contacter</a>
+    </nav>
+    <h1 class="mon_cv">Mon CV</h1>
+    <div class="container">
+        <section class="profil">
+            <div class="photo_description">
+                <div class="profil_left" id="special_profil">
+                    <img src="personal_photo.jpg" alt="" height="300px">
+                </div>
+                <div class="profil_right">
+                    <h2>Qui suis-je ?</h2>
+                    <p>BELLO Mohamed</p>
+                    <p>17 ans</p>
+                    <p>Beninois</p>
+                    <p>dinebello016@gmail.com</p>
+                    <p>Etudiant en premiere année d'informatique de Gestion a L'ENEAM</p>
+                </div>
+            </div>
+        </section>
+        <section class="cursus">
+            <h2>Cursus</h2>
+            <div class="cursus_content">
+                <div class="cursus_left">
+                    <h3>Certificat d'Etude Primaire (CEP)</h3>
+                </div>
+                <div class="cursus_right">
+                    <h3>2010 - 2016 </h3>
+                </div>
+            </div>
+            <div class="cursus_content">
+                <div class="cursus_left">
+                    <h3>Brevet d'Etude du Premier Cycle (BEPC)</h3>
+                </div>
+                <div class="cursus_right">
+                    <h3>2016 - 2020</h3>
+                </div>
+            </div>
+            <div class="cursus_content">
+                <div class="cursus_left">
+                    <h3>Baccalaureat (BAC)</h3>
+                </div>
+                <div class="cursus_right">
+                    <h3>2020 - 2023</h3>
+                </div>
+            </div>
+
+        </section>
+        <h2>Atouts Propres</h2>
+        <section class="atouts_niveau">
+            <div>
+                <div class="shills">
+                    <h3>HTML CSS</h3>
+                </div>
+                <div class="shills">
+                    <h3>PYTHON</h3>
+                </div>
+                <div class="shills">
+                    <h3>Javascript</h3>
+                </div>
+                <div class="shills">
+                    <h3>Shell Linux</h3>
+                </div>
+                <div class="shills">
+                    <h3>Gestion de Finances</h3>
+                </div>
+                <div class="shills">
+                    <h3>Communication</h3>
+                </div>
+            </div>
+            <div>
+                <div class="mastered_level">
+                    <h3>Amateur</h3>
+                </div>
+                <div class="mastered_level">
+                    <h3>Amateur</h3>
+                </div>
+                <div class="mastered_level">
+                    <h3>Debutant</h3>
+                </div>
+                <div class="mastered_level">
+                    <h3>Debutant</h3>
+                </div>
+                <div class="mastered_level">
+                    <h3>Debutant</h3>
+                </div>
+                <div class="mastered_level">
+                    <h3>Avancé</h3>
+                </div>
+            </div>
+        </section>
+        <h2>Atouts Linguistiques</h2>
+        <section class="atouts_linguistiques">
+            <div>
+                <div class="shills">
+                    <h3>Francais</h3>
+                </div>
+                <div class="shills">
+                    <h3>Anglais</h3>
+                </div>
+            </div>
+            <div>
+                <div class="mastered_level">
+                    <h3>Avancé</h3>
+                </div>
+                <div class="mastered_level">
+                    <h3>Amateur</h3>
+                </div>
+            </div>
+        </section>
+        <div class="profil">
+            <div class="profil_left">
+                <img src="basket.jpg" alt="">
+            </div>
+            <div class="profil_right">
+                <p>Le basket est un sport qui mesure la reavtivite du joueur .</p>
+                <p>J'aime non seulement regarder les maths de basket mais aussi pratiquer le sport en vue d'augmenter ma
+                    capacite a me concentrer .</p>
+                <p>Le basket est mon sport favori</p>
+            </div>
+        </div>
+        <div class="profil">
+            <div class="profil_left">
+                <img src="nouvelles technologies.jpg" alt="">
+            </div>
+            <div class="profil_right">
+                <p>En dehors des maths de basket , observr les avance technologiques est et sera toujour tres
+                    interessant .</p>
+                <p>J'eprouve une passion profonde pour tout se qui se rapportte a l'inconnu</p>
+                <p>J'aime etre au top de la i-tech</p>
+            </div>
+        </div>
+        <div class="profil">
+            <div class="profil_left">
+                <img src="otaku.jpg" alt="">
+            </div>
+            <div class="profil_right">
+                <p>Apres le travail , l'heure du repos fait parti de mes passe-temps favoris</p>
+                <p>Durant ce moment , regarder les animes peut etre passionnant et peut offfrir de nouvelles idées</p>
+                <p>Observer et comprendre un monde de fantaisie peut etre source de creativite</p>
+            </div>
+        </div>
+        <div id="contact">
+            <p>BELLO Mohamed</p>
+            <p>17 ans</p>
+            <p>Telephone : <a href="phoneto:+22999240874"> +229 99 24 08 74</a></p>
+            <p>Mail : <a href="mailto:dinebello016@gmail.com"> dinebello016@gmail.com</a></p>
+        </div>
+    </div>
+</body>
+</html>

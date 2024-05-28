@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BELLO Mohamed</title>
+    <!-- Link Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Ajoutez votre propre CSS personnalisé ici si nécessaire */
+        body {
+            background-color: #f8f9fa; /* Couleur de fond */
+        }
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            padding: 10px;
+            background-color: #007bff; /* Couleur de fond du header */
+            color: white; /* Couleur du texte */
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: #343a40; /* Couleur de fond de la barre de navigation */
+        }
+        nav a {
+            color: white; /* Couleur des liens */
+            text-decoration: none;
+        }
+        .logo{
+            height: 120px;
+            width: 120px;
+        }
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+        .card-header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            border-bottom: none;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .card-body {
+          padding: 30px;
+        }
+        .form-group label {
+            font-weight: bold;
+        }
+        button[type="submit"] , button[type="reset"]{
+            width: 40%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+            display: inline-block;
+            margin: 0px 5%;
+        }
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        #description{
+            resize: none;
+        }
+        .container {
+          max-width: 400px;
+          margin: 50px auto;
+        }
+        .form-group label {
+          font-weight: bold;
+        }
+        .form-check-label {
+          font-weight: normal;
+        }
+        .btn-primary {
+          width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header class="header-content">
+        <img src="uac.jpeg" alt="Logo de l'UAC" class="logo">
+        <section>
+            <h1>Université d'Abomey Calavi</h1>
+            <p><strong>***********************</strong></p>
+            <h2>Ecole Nationale d'Economie Aplliquée et de Managment</h2>
+        </section>
+        <img src="eneam.jpeg" alt="Logo de l'Eneam" class="logo">
+    </header>
+    <nav>
+        <a href="accueil_principale.html" target="_self">Accueil</a>
+        <a href="tableaux.html" target="_self">Tableaux</a>
+        <a href="formulaires.html" target="_self">Formulaire</a>
+        <a href="cv.html" target="_self">Curiculum Vitae (CV)</a>
+        <a href="contact.html" target="_self">Me contacter</a>
+    </nav>
+    <div class="container">
+        <div class="card">
+          <div class="card-header">
+            <h4>Formulaire 2</h4>
+          </div>
+          <div class="card-body">
+            <form method="post" action="traitement.php">
+              <div class="form-group">
+                <label for="name">Quel est votre Nom ?</label>
+                <input type="text" name="name" class="form-control" required autofocus>
+              </div>
+              <div class="form-group">
+                <label for="surname">Quel est votre Prénom ?</label>
+                <input type="text" name="surname" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Adresse email</label>
+                <input type="email" name="email" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="wish">Souhait</label>
+                <select name="wish" class="form-control" required>
+                  <option value="">Choisissez un souhait</option>
+                  <option value="rich">Être riche</option>
+                  <option value="famous">Être célèbre</option>
+                  <option value="smart">Être encore plus intelligent</option>
+                  <option value="other">Autre</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="description">Description (si autre)</label>
+                <textarea name="description" id="description" class="form-control" rows="4"></textarea>
+              </div>
+              <button type="reset">Reinitialiser</button><button type="submit">Enregistrer</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    <!-- Scripts Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
